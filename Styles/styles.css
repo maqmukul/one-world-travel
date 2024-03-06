@@ -1,0 +1,181 @@
+header {
+    margin: 20px 120px;
+}
+
+main {
+    margin: 20px 120px;
+
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.banner {
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+    height: 400px;
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    filter: brightness(0.8);
+    background-repeat: no-repeat;
+
+
+}
+
+.banner h1 {
+    font-size: 60px;
+    color: rgb(81, 77, 77);
+    margin-top: 10px;
+}
+
+.banner p {
+    color: rgb(48, 39, 39);
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+
+}
+
+.banner input {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.primary-btn {
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(41, 40, 40);
+    background-color: rgb(234, 92, 92);
+}
+
+
+
+.our-popular-tours {
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+
+
+}
+
+.our-popular-tours-description {
+    width: 50%;
+}
+
+.our-popular-tours img {
+    margin-left: 35px;
+    width: 100%;
+}
+
+.our-popular-tours p {
+    padding-right: 10px;
+}
+
+
+
+@media screen and (max-width:600px) {
+    header {
+        margin: auto;
+        padding: auto;
+    }
+
+    main {
+        margin: auto;
+        padding: auto;
+    }
+
+    .banner {
+        width: 90%;
+        height: auto;
+        margin: auto;
+        padding: auto;
+
+
+    }
+
+    .banner h1 {
+        color: rgb(81, 80, 80);
+        font-size: 30px;
+        margin: auto;
+        padding: auto;
+
+    }
+
+    .banner p {
+        color: rgb(133, 132, 132);
+        margin: auto;
+        padding: auto;
+    }
+
+    .banner input {
+        display: block;
+        width: 70%;
+        height: auto;
+        margin: auto;
+        padding: auto;
+        margin-top: 10px;
+
+
+    }
+
+    .our-popular-tours {
+        display: block;
+    }
+
+    .our-popular-tours-description {
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        padding: 10px;
+
+
+    }
+
+    .our-popular-tours img {
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 90%;
+        height: 400px;
+    }
+
+    .our-popular-tours h2 {
+        margin-bottom: 0;
+    }
+
+    .our-popular-tours p {
+        margin-top: 0;
+    }
+
+    .our-popular-tours button {
+        padding: 2%;
+        width: 30%;
+        height: auto;
+    }
+
+    .primary-btn {
+        font-size: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
