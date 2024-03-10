@@ -84,6 +84,7 @@ h2 {
 }
 
 .choose-your-destination h3 {
+    font-size: 30px;
     color: white;
     text-align: center;
     margin-top: 150px;
@@ -177,6 +178,49 @@ h2 {
     border: 1px solid white;
     border-radius: 20px;
 }
+
+.why-choose-us h3 {
+    font-size: 30px;
+}
+
+.why-choose-us img {
+    width: 70px;
+
+}
+
+.row-1 {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.row-2 {
+    text-align: center;
+    margin: 40px 250px;
+    padding: 20px;
+
+}
+
+.handpicked-hotels {
+    background-color: rgb(231, 230, 227);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.world-class-service {
+    background-color: rgb(237, 231, 216);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.best-price-guarantee {
+    text-align: left;
+    background-color: rgb(204, 208, 211);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+
 
 @media screen and (max-width:600px) {
     header {
@@ -301,5 +345,26 @@ h2 {
         margin-top: 100px;
     }
 
+    .choose-your-destination h3 {
+        font-size: 20px;
+    }
 
+    .row-1 {
+        display: block;
+
+    }
+
+    .row-2 {
+        margin: auto;
+    }
+
+    .handpicked-hotels,
+    .world-class-service {
+        margin: 20px;
+    }
+
+    .why-choose-us h3 {
+        font-size: 20px;
+        color: black;
+    }
 }
