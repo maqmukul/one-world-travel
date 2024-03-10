@@ -31,6 +31,7 @@ h2 {
     margin-top: 10px;
 }
 
+
 .banner p {
     color: rgb(48, 39, 39);
     margin-right: 150px;
@@ -82,7 +83,100 @@ h2 {
     padding-right: 10px;
 }
 
+.choose-your-destination h3 {
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+}
 
+.section-title {
+    text-align: center;
+    margin: 40px 250px;
+    padding: 20px;
+
+}
+
+.m-i {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 50% 50%);
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.s-n-k {
+
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 30% 48% 20%);
+    margin-bottom: 20px;
+
+
+}
+
+.b-b {
+
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 40% 60%);
+    margin-bottom: 20px;
+
+
+}
+
+.maldives {
+    background-image: url('/Images/Rectangle\ 5.png');
+
+}
+
+.indonesia {
+    background-image: url('/Images/Rectangle\ 8.png');
+
+}
+
+
+.srilanka {
+    background-image: url('/Images/Rectangle\ 6.png');
+
+}
+
+
+.north-america {
+    background-image: url('/Images/Rectangle\ 7.png');
+
+
+}
+
+.kashmir {
+    background-image: url('/Images/Rectangle\ 9.png');
+
+}
+
+.bangladesh {
+    background-image: url('/Images/Rectangle\ 11.png');
+
+}
+
+.bandarban {
+    background-image: url('/Images/Rectangle\ 10.png');
+
+}
+
+.maldives,
+.indonesia,
+.srilanka,
+.north-america,
+.kashmir,
+.bangladesh,
+.bandarban {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
 
 @media screen and (max-width:600px) {
     header {
@@ -97,9 +191,10 @@ h2 {
 
     .banner {
         width: 90%;
-        height: auto;
+        height: 400px;
         margin: auto;
         padding: auto;
+        border-radius: 30px;
 
 
     }
@@ -110,6 +205,10 @@ h2 {
         margin: auto;
         padding: auto;
 
+    }
+
+    h2 {
+        font-size: 25px;
     }
 
     .banner p {
@@ -144,10 +243,12 @@ h2 {
     }
 
     .our-popular-tours img {
-        margin-top: 20px;
-        margin-left: 20px;
         width: 90%;
-        height: 400px;
+        height: auto;
+        margin-left: 20px;
+        padding: auto;
+        border-radius: 30px;
+
     }
 
     .our-popular-tours h2 {
@@ -168,14 +269,37 @@ h2 {
         font-size: 10px;
     }
 
+    .section-title {
+        margin: auto;
+    }
 
+    .m-i,
+    .s-n-k,
+    .b-b {
+        display: block;
+    }
 
+    .maldives,
+    .indonesia,
+    .srilanka,
+    .north-america,
+    .kashmir,
+    .bangladesh,
+    .bandarban {
+        background-size: cover;
+        width: 90%;
+        height: 400px;
+        margin: auto;
+        margin-bottom: 20px;
+        padding: auto;
+        border-radius: 30px;
 
+    }
 
-
-
-
-
+    .choose-your-destination {
+        text-align: center;
+        margin-top: 100px;
+    }
 
 
 }
